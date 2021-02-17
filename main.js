@@ -1,8 +1,8 @@
 function age(member, name, years, month) {
-	return `My ${member}, ${name} is ${years} year old (${month} months)`;
+	return `My ${member}, ${name} is ${years} year old (${years *12} months)`;
 
 }
 
 
-
-age("mother", "Elizabeth", "52", "52" * 12)
+console.log(age("mother", "Elizabeth", "52"))
+console.log(age("sister", "Sheika", "25"))
